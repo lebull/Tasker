@@ -48,6 +48,12 @@ class Task:
 		Task.encode(newTask)
 		return Task
 
+	#TODO
+	@staticmethod
+	def deleteTask():
+		pass
+
+	#TODO: Pickle is in no way the best way to keep these tasks.
 	@staticmethod
 	def encode(inTask):
 

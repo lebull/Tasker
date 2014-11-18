@@ -2,6 +2,8 @@
 from os import walk
 from taskerconfig import TaskerConfig
 
+#TODO: We don't need all this unknown/known directories.
+
 class TaskFileManager:
 
 	unknownDirectories = []
