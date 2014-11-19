@@ -1,5 +1,4 @@
-from taskerconfig import TaskerConfig
-from task import *
+from Task import *
 
 #A class that holds any data, but will execute callbacks if the data is set.
 

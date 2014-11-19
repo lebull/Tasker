@@ -1,5 +1,4 @@
-from taskerconfig import TaskerConfig
-from task import *
+from Task import *
 
 from model import *
 from view import *

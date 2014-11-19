@@ -13,8 +13,7 @@
 """
 #import ttk
 
-from taskerconfig import TaskerConfig
-from task import *
+from Task import *
 
 from controller import *
 

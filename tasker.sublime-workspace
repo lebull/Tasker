@@ -28,42 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "main.py",
+			"file": "view.py",
 			"settings":
 			{
-				"buffer_size": 153,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "task.py",
-			"settings":
-			{
-				"buffer_size": 2584,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "taskfilemanager.py",
-			"settings":
-			{
-				"buffer_size": 1583,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "taskerconfig.py",
-			"settings":
-			{
-				"buffer_size": 136,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gui.py",
-			"settings":
-			{
-				"buffer_size": 2153,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -92,9 +60,17 @@
 	},
 	"file_history":
 	[
-		"/C/Users/TDARSEY/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/gui.py",
 		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/main.py",
+		"/C/Users/TDARSEY/Desktop/Work/Tasks/Active/CSA/CSA_results.txt",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/model.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/controller.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/task.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/taskfilemanager.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/taskerconfig.py",
+		"/C/Python27/lib/lib-tk/Tkinter.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/gui.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/gui2.py",
+		"/C/Users/TDARSEY/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/TDARSEY/Desktop/tasker/taskerconfig.py",
 		"/C/Users/TDARSEY/Desktop/tasker/task.py",
 		"/C/Users/TDARSEY/Desktop/tasker/taskfilemanager.py",
@@ -128,6 +104,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".mainView",
+			"grid",
+			"tasksChanged",
+			"MainApp",
+			"empty",
+			"SampleApp",
 			"task",
 			"start"
 		],
@@ -137,6 +119,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			".topView.mainView",
+			"updateTasks",
+			"MainView",
+			"MainApp"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -147,129 +133,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.py",
+					"file": "view.py",
 					"settings":
 					{
-						"buffer_size": 153,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "task.py",
-					"settings":
-					{
-						"buffer_size": 2584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2579,
-								2579
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "taskfilemanager.py",
-					"settings":
-					{
-						"buffer_size": 1583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1523,
-								1523
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 702.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "taskerconfig.py",
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "gui.py",
-					"settings":
-					{
-						"buffer_size": 2153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1873,
-								1873
+								0,
+								0
 							]
 						],
 						"settings":
@@ -279,7 +159,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -320,11 +200,11 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 187.0
+		"height": 162.0
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

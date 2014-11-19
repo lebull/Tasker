@@ -1,17 +1,16 @@
-from taskerconfig import TaskerConfig
-from task import *
+from Task import *
 
 import Tkinter as tk
 import tkFont
 import tkFileDialog
 
-"""
-    TopView
-        MainView
-            InfoFrame
-            TaskList
-        AddView #Maybe should be named window?
-"""
+# --View Heiarchy--
+#     TopView
+#         MainView
+#             InfoFrame
+#             TaskList
+#         AddView #Maybe this object should be named window?
+
 
 
 class TopView(tk.Toplevel):

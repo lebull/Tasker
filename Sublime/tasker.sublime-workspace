@@ -1,0 +1,528 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"un",
+				"unknownDirectories"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"re",
+				"returnString"
+			],
+			[
+				"Tas",
+				"TaskTodoItem"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/model.py",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/controller.py",
+			"settings":
+			{
+				"buffer_size": 1421,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/view.py",
+			"settings":
+			{
+				"buffer_size": 2690,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/main.py",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/task.py",
+			"settings":
+			{
+				"buffer_size": 949,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/project.py",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Windows",
+				"name": "from task include *"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/taskfilemanager.py",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+			"settings":
+			{
+				"buffer_size": 59,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskerconfig.py",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Python27/lib/pickle.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskfilemanager.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/task.py",
+		"/C/Users/TDARSEY/Desktop/Work/Tasks/Active/CSA/CSA_results.txt",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/main.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/model.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/view.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/controller.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/task.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/taskfilemanager.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Sublime/taskerconfig.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/task.py",
+		"/C/Python27/lib/lib-tk/Tkinter.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/gui.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/gui2.py",
+		"/C/Users/TDARSEY/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/main.py",
+		"/C/Users/TDARSEY/Desktop/tasker/taskerconfig.py",
+		"/C/Users/TDARSEY/Desktop/tasker/task.py",
+		"/C/Users/TDARSEY/Desktop/tasker/taskfilemanager.py",
+		"/C/Users/TDARSEY/Desktop/tasker/main.py",
+		"/C/Users/TDARSEY/Desktop/tasker/tasker.sublime-project",
+		"/C/Users/TDARSEY/Desktop/tasker/classderp_send.py",
+		"/C/Users/TDARSEY/Desktop/Ashley Python Stuff/PythonStuff/twitter_test.py",
+		"/C/Users/TDARSEY/Desktop/Ashley Python Stuff/PythonStuff/WhatIDid.html",
+		"/C/Users/TDARSEY/Desktop/Ashley Python Stuff/PythonStuff/something.py",
+		"/C/Users/TDARSEY/Desktop/get-pip.py",
+		"/C/Users/TDARSEY/Desktop/euler_pandigital_products.py",
+		"/C/Users/TDARSEY/Desktop/Work/transactions",
+		"/C/Users/TDARSEY/Desktop/Project Euler/63.py",
+		"/C/Users/TDARSEY/Desktop/Project Euler/test.ruby",
+		"/C/Users/TDARSEY/Desktop/formatted.html",
+		"/C/Users/TDARSEY/Desktop/raw.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"returnTask",
+			".mainView",
+			"grid",
+			"tasksChanged",
+			"MainApp",
+			"empty",
+			"SampleApp",
+			"task",
+			"start"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"returnProject",
+			".topView.mainView",
+			"updateTasks",
+			"MainView",
+			"MainApp"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/model.py",
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/controller.py",
+					"settings":
+					{
+						"buffer_size": 1421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/view.py",
+					"settings":
+					{
+						"buffer_size": 2690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/main.py",
+					"settings":
+					{
+						"buffer_size": 647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/task.py",
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								617
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/project.py",
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from task include *",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/taskfilemanager.py",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+					"settings":
+					{
+						"buffer_size": 59,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskerconfig.py",
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/TDARSEY/Desktop/tasker/tasker.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
