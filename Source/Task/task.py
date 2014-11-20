@@ -8,6 +8,7 @@ class Task:
     complete = False
     start_date = DateTime.today()
     end_date = None
+    childTasks = []
 
 
     def __init__(self, name ="", description = "", start_date = DateTime.today()):
@@ -21,6 +22,10 @@ class Task:
         self.finished = True
         self.finishedDate = self.finishedDate
 
+    #save it...
+    def addChildTask(self, inTask):
+        self.childTasks.append(inTask)
+
     #When saving this, we need to encode it since this is a specific class.
     def encode(self):
         return pickle.dumps(self)
@@ -33,4 +38,15 @@ class Task:
     def __str__(self):
         returnString = self.name
         return returnString
+
+
+#Blah, save it for later.  It could be cool
+class TaskTree:
+
+    def __init__(self):
+        self.root = None
+        self.pointer = self.root
+
+
+
 

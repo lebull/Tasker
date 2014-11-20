@@ -4,7 +4,13 @@ from Task import *
 
 class Model:
     def __init__(self):
-        self.tasks = Observable(Task.getAllTasks())
+
+        myProject = Project.loadProject('C:/Users/Tyler/Desktop/DevProjects/Tasker/Saves/Project_Save.pkl')
+        
+        self.project = Observable(myProject)
+        taskList = self.project.get().tasks
+        self.tasks = Observable(taskList)
+
         self.selectedTask = Observable(None)
 
     def getTaskByIndex(self, inIndex):
@@ -39,3 +45,6 @@ class Observable:
 
     def unset(self):
         self.data = None
+
+if __name__ == '__main__':
+    model = Model()

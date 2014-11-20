@@ -2,12 +2,11 @@
   TODO:
     View:
         -Add Task
-        -Task Details
         -Minimize to system tray 
         -Maybe a more flexible view system? (Be able to exchange views)
-    -Task:
-        -Consider saving as multiple file types
-        -Todo/subtask
+    Project:
+        -Fix Encoding issues.  jsonpickle looks like a possible option.
+
 
       -http://www.blog.pythonlibrary.org/2013/07/12/wxpython-how-to-minimize-to-system-tray/
 """

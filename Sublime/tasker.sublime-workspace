@@ -28,23 +28,23 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/model.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/main.py",
 			"settings":
 			{
-				"buffer_size": 910,
+				"buffer_size": 630,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/controller.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/model.py",
 			"settings":
 			{
-				"buffer_size": 1421,
+				"buffer_size": 1155,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/view.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/view.py",
 			"settings":
 			{
 				"buffer_size": 2690,
@@ -52,32 +52,34 @@
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/main.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/controller.py",
 			"settings":
 			{
-				"buffer_size": 647,
+				"buffer_size": 1421,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/task.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/__init__.py",
 			"settings":
 			{
-				"buffer_size": 949,
+				"buffer_size": 87,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/project.py",
+			"contents": "#https://docs.python.org/2/library/datetime.html\nfrom datetime import datetime as DateTime\nimport pickle\n\nclass Task:\n    name = 'Empty'\n    description = 'Empty'\n    complete = False\n    start_date = DateTime.today()\n    end_date = None\n    childTasks = []\n\n\n    def __init__(self, name =\"\", description = \"\", start_date = DateTime.today()):\n        self.name = name\n        self.description = description\n        self.startDate = start_date\n        self.finishedDate = None\n        self.finished = False\n\n    def finish(self, finishedDate = DateTime.today()):\n        self.finished = True\n        self.finishedDate = self.finishedDate\n\n    #save it...\n    def addChildTask(self, inTask):\n        self.childTasks.append(inTask)\n\n    #When saving this, we need to encode it since this is a specific class.\n    def encode(self):\n        return pickle.dumps(self)\n\n    #And decode it when we need it.\n    @staticmethod\n    def decode(inData):\n        return pickle.loads(self)\n\n    def __setstate__(self, state):\n        pass\n    def __getstate__(self):\n        pass\n\n    def __str__(self):\n        returnString = self.name\n        return returnString\n\n\n#Blah, save it for later.  It could be cool\nclass TaskTree:\n\n    def __init__(self):\n        self.root = None\n        self.pointer = self.root\n\n\n\n\n",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/task.py",
+			"file_size": 1261,
+			"file_write_time": 130609256503717355,
 			"settings":
 			{
-				"buffer_size": 861,
-				"line_ending": "Windows",
-				"name": "from task include *"
+				"buffer_size": 1299,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/taskfilemanager.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/taskfilemanager.py",
 			"settings":
 			{
 				"buffer_size": 586,
@@ -85,18 +87,26 @@
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/hello.py",
 			"settings":
 			{
-				"buffer_size": 59,
+				"buffer_size": 153,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskerconfig.py",
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/taskerconfig.py",
 			"settings":
 			{
 				"buffer_size": 53,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/project.py",
+			"settings":
+			{
+				"buffer_size": 1629,
 				"line_ending": "Windows"
 			}
 		}
@@ -125,8 +135,16 @@
 	},
 	"file_history":
 	[
-		"/C/Python27/lib/pickle.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/model.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/view.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/main.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/task.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/project.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/taskfilemanager.py",
 		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskerconfig.py",
+		"/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/controller.py",
+		"/C/Python27/lib/pickle.py",
 		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskfilemanager.py",
 		"/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/task.py",
 		"/C/Users/TDARSEY/Desktop/Work/Tasks/Active/CSA/CSA_results.txt",
@@ -207,23 +225,23 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/model.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/main.py",
 					"settings":
 					{
-						"buffer_size": 910,
+						"buffer_size": 630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								158,
+								158
 							]
 						],
 						"settings":
@@ -240,18 +258,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/controller.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/model.py",
 					"settings":
 					{
-						"buffer_size": 1421,
+						"buffer_size": 1155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6,
-								6
+								383,
+								383
 							]
 						],
 						"settings":
@@ -268,7 +286,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/view.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/view.py",
 					"settings":
 					{
 						"buffer_size": 2690,
@@ -278,8 +296,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								175,
+								175
 							]
 						],
 						"settings":
@@ -289,25 +307,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 66.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/main.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/controller.py",
 					"settings":
 					{
-						"buffer_size": 647,
+						"buffer_size": 1421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								406,
-								406
+								14,
+								14
 							]
 						],
 						"settings":
@@ -324,51 +342,22 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/task.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/__init__.py",
 					"settings":
 					{
-						"buffer_size": 949,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								862,
-								617
+								49,
+								49
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/project.py",
-					"settings":
-					{
-						"buffer_size": 861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								485,
-								485
-							]
-						],
-						"settings":
-						{
-							"auto_name": "from task include *",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -378,8 +367,36 @@
 					"type": "text"
 				},
 				{
+					"buffer": 5,
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/task.py",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 6,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/taskfilemanager.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/taskfilemanager.py",
 					"settings":
 					{
 						"buffer_size": 586,
@@ -389,8 +406,8 @@
 						"selection":
 						[
 							[
-								179,
-								179
+								0,
+								0
 							]
 						],
 						"settings":
@@ -406,18 +423,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/Tasker/Source/Task/__init__.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/hello.py",
 					"settings":
 					{
-						"buffer_size": 59,
+						"buffer_size": 153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								0,
+								0
 							]
 						],
 						"settings":
@@ -432,7 +449,7 @@
 				},
 				{
 					"buffer": 8,
-					"file": "/C/Users/TDARSEY/Desktop/Tasker_Project/tasker/Source/taskerconfig.py",
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/taskerconfig.py",
 					"settings":
 					{
 						"buffer_size": 53,
@@ -442,8 +459,8 @@
 						"selection":
 						[
 							[
-								19,
-								19
+								0,
+								0
 							]
 						],
 						"settings":
@@ -452,6 +469,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Tyler/Desktop/DevProjects/Tasker/Source/Task/project.py",
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
