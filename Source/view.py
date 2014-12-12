@@ -1,5 +1,3 @@
-from Task import *
-
 import Tkinter as tk
 import tkFont
 import tkFileDialog
@@ -35,13 +33,13 @@ class MainView(tk.Frame):
     def __init__(self, master):
         tk.Frame.__init__(self,master)
 
-        self.taskList = TaskList(self)
-        self.taskList.pack(side='left', fill='both', anchor='w', expand=1)
+        self.projectList = ProjectList(self)
+        self.projectList.pack(side='left', fill='both', anchor='w', expand=1)
 
         self.infoFrame = InfoFrame(self)
         self.infoFrame.pack(side='right', fill='both', anchor='e', expand=1)
 
-class TaskList(tk.Frame):
+class ProjectList(tk.Frame):
     def __init__(self, master):
         tk.Frame.__init__(self, master)
 
@@ -52,11 +50,11 @@ class TaskList(tk.Frame):
         self.list.grid(row=0, column = 0)
         self.current = None
 
-    def setTasks(self, data):
+    def setProjects(self, data):
         self.list.delete(0, tk.END)
 
-        for eachItem in data:
-            self.list.insert(tk.END, str(eachItem))
+        for eachProject in data:
+            self.list.insert(tk.END, str(eachProject.name))
 
 class InfoFrame(tk.Frame):
     def __init__(self, master):
@@ -66,20 +64,20 @@ class InfoFrame(tk.Frame):
         self.name = tk.Label(self, text="(empty)", justify=tk.LEFT)
         self.name.grid(row=0, column=1, sticky='nw' )
 
-        tk.Label(self, text="Description: ").grid(row=1, column=0, sticky='ne')       
-        self.description = tk.Label(self, text="(empty)", justify=tk.LEFT)
-        self.description.grid(row=1, column=1, sticky='nw')
+        tk.Label(self, text="Owner: ").grid(row=1, column=0, sticky='ne')       
+        self.owner = tk.Label(self, text="(empty)", justify=tk.LEFT)
+        self.owner.grid(row=1, column=1, sticky='nw')
 
-        tk.Label(self, text="Start Date: ").grid(row=2, column=0, sticky='ne')        
-        self.start_date = tk.Label(self, text="(empty)", justify=tk.LEFT)
-        self.start_date.grid(row=2, column=1, sticky='nw')
+        tk.Label(self, text="Edited Date: ").grid(row=2, column=0, sticky='ne')        
+        self.updated_date = tk.Label(self, text="(empty)", justify=tk.LEFT)
+        self.updated_date.grid(row=2, column=1, sticky='nw')
 
-    def setInfo(self, inTask):
-        self.name.config(text = str(inTask.name)        )
-        self.description.config(text = str(inTask.description) )
-        self.start_date.config(text = str(inTask.start_date)  )
+    def setInfo(self, inProject):
+        self.name.config(text = str(inProject.name)        )
+        self.owner.config(text = str(inProject.owner ) )
+        self.updated_date.config(text = str(inProject.last_updated)  )
 
-class AddView(tk.Toplevel):
+class AddProjectView(tk.Toplevel):
     def __init__(self, master):
         tk.Toplevel.__init__(self, master)
         self.nameLabel = tk.Label(self, text="Name")

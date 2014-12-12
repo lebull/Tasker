@@ -1,0 +1,4 @@
+requests==2.4.1
+pytodoist
+pyoauth2 
+//--upgrade google-api-python-client

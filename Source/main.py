@@ -10,13 +10,8 @@
 
       -http://www.blog.pythonlibrary.org/2013/07/12/wxpython-how-to-minimize-to-system-tray/
 """
-#import ttk
-
-from Task import *
 
 from controller import *
-
-
 import Tkinter as tk
 
 if __name__ == '__main__':
